@@ -506,14 +506,8 @@ Nous allons laisser de côté la branche `popn` pour l'instant et faire ces modi
   &gt;>>>>>> tp2
   end -- pop
   </pre>
-  
-  Vous pouvez tenter la résolution avec un outil automatique :
-  
-  <pre>
-  $ <add>git mergetool</add>
-  </pre>
-  
-  Ou manuellement modifier <code>forth</code> :
+
+  Modifier manuellement <code>forth</code> :
 
   <pre class=context>
   function pop(n)<add>
