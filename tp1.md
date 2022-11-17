@@ -300,7 +300,7 @@ Pour comparer l'état courant avec une révision arbitraire, il suffit de donner
 
 Vous pouvez comparer deux commits entre eux
 
-    git diff HEAD^^ HEAD^
+    git diff HEAD^ HEAD^^
 
 ### Rappel sur les identifiants relatifs de révision ###
 - `HEAD`: le dernier commit, et le commit parent du prochain commit
